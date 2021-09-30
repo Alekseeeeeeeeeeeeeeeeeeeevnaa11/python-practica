@@ -1,0 +1,11 @@
+A = int(input("длинна кор:"))
+B = int(input("ширина кор:"))
+C = int(input("высота кор:"))
+M = int(input("ширина дв:"))
+X = int(input("высота дв:"))
+S1=2*(A*B+B*C+A*C)
+S2=M*X
+if S1<=S2:
+    print("пройдет")
+else:
+    print("не пройдет")
